@@ -1,4 +1,6 @@
 body {
+  margin: 0; /* в normalize.css v6.0 убрано обнуление*/
+
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
   color: #333333;
