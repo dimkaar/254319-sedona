@@ -777,6 +777,7 @@ body {
 .main-footer__center-column__social-btn {
   position: relative;
 
+  display: block;
   width: 46px;
   margin-top: 1px;
   margin-right: 4px;
@@ -785,7 +786,7 @@ body {
   padding-bottom: 14px;
   box-sizing: border-box;
 
-  text-indent: 200%;
+  text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 
@@ -920,7 +921,7 @@ body {
 }
 
 .main-main__sort-form__sort-column_left {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .main-main__sort-form__text_bold {
@@ -997,7 +998,7 @@ body {
 }
 
 .main-main__sort-form__sort-column_center {
-  margin-right: 245px;
+  margin-right: 238px;
 }
 
 .main-main__sort-form__sort-column_right {
@@ -1100,11 +1101,13 @@ body {
 
 .main-main__sort-form__sort-btn {
   display: block;
+  width: 41.5%;
   margin: 0 auto;
   padding-top: 6px;
   padding-right: 28px;
   padding-bottom: 6px;
   padding-left: 28px;
+  box-sizing: border-box;
 
   font-size: 14px;
   color: #ffffff;
@@ -1153,7 +1156,7 @@ body {
 }
 
 .main-main__results-header__text_bold {
-  margin-right: 6px;
+  margin-right: 5px;
 }
 
 .main-main__results-header__output_bold {
@@ -1333,11 +1336,10 @@ body {
   -ms-flex-align: end;
   align-items: flex-end;
   width: 111px;
-  margin-left: 520px;
+  margin-left: 522px;
 }
 
 .main-main__results-main__description-block {
-  margin-right: 1px;
   margin-bottom: 40px;
 }
 
@@ -1345,7 +1347,6 @@ body {
   width: inherit;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 2px;
   padding-top: 4px;
   padding-right: 12px;
   padding-bottom: 3px;
