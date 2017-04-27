@@ -143,6 +143,7 @@ body {
   width: 20%;
   padding-bottom: 20px;
 
+  background-color: #ffffff;
   background-image: url("../img/header-logo-bg.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -170,6 +171,7 @@ body {
   padding-top: 77px;
   padding-bottom: 74px;
 
+  background-color: transparent;
   background-image: url("../img/header-shape.png");
   background-repeat: no-repeat;
   background-position: 0 100%;
@@ -284,10 +286,12 @@ body {
 }
 
 .reason-photo__block-first {
+  background-color: #81b3d2;
   background-image: url("../img/reason-bg.jpg");
 }
 
 .reason-photo__block-second {
+  background-color: #81b3d2;
   background-image: url("../img/reason-bg-2.jpg");
 }
 
@@ -796,6 +800,8 @@ body {
 .main-footer__center-column__social-btn::before {
   position: absolute;
   content: "";
+
+  background-color: #81b3d2;
 }
 
 .main-footer__center-column__social-btn:hover {
@@ -894,6 +900,7 @@ body {
   padding-right: 71px;
   padding-left: 71px;
 
+  background-color: #ffffff;
   background-image: url("../img/inner-bg-heaader.jpg");
   background-repeat: no-repeat;
 }
