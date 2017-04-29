@@ -731,6 +731,9 @@ body {
 }
 
 .map-block {
+  width: 100%;
+  height: 593px; /* Элемент не меняет своих размеров */
+
   background-color: #ffffff;
   background-image: url("../img/background-map.jpg");
   background-repeat: no-repeat;
@@ -739,7 +742,7 @@ body {
 
 .map-block__map-frame {
   width: 100%;
-  height: 593px;
+  height: 593px; /* Элемент не меняет своих размеров */
 }
 
 .main-footer__links-block {
