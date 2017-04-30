@@ -533,7 +533,7 @@ body {
   width: 22px;
   height: 22px;
 
-  text-indent: 200%;
+  text-indent: 300%;
   white-space: nowrap;
   overflow: hidden;
 
@@ -552,16 +552,15 @@ body {
 
 .search-block__input-date {
   width: 75.6%;
-  padding-top: 6px;
+  padding-top: 11px;
   padding-right: 35px;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   padding-left: 13px;
   box-sizing: border-box;
 
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -1.3px;
-  line-height: 26px;
   text-transform: uppercase;
 
   background-color: #f2f2f2;
@@ -684,15 +683,14 @@ body {
 
 .search-block__input-number {
   width: 50px;
-  padding-top: 6px;
+  padding-top: 11px;
   padding-right: 10px;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   padding-left: 10px;
   box-sizing: border-box;
 
   font-size: 14px;
   font-weight: 700;
-  line-height: 26px;
   text-align: center;
 
   background-color: #f2f2f2;
