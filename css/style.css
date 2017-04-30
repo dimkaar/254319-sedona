@@ -72,7 +72,7 @@ body {
   display: -ms-flexbox;
 
   display: flex;
-  -ms-flex-pack: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
   background-color: #ffffff;
@@ -502,7 +502,7 @@ body {
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   -ms-flex-align: baseline;
   align-items: baseline;
@@ -917,6 +917,7 @@ body {
   background-color: #ffffff;
   background-image: url("../img/inner-bg-heaader.jpg");
   background-repeat: no-repeat;
+  background-position: 0 -55px;
 }
 
 .main-main__sort-form {
@@ -942,7 +943,7 @@ body {
 }
 
 .main-main__sort-form__sort-column_left {
-  margin-right: 24px;
+  margin-right: 21px;
 }
 
 .main-main__sort-form__text_bold {
@@ -955,11 +956,11 @@ body {
 }
 
 .main-main__sort-form__inline-block {
-  margin-bottom: 24px;
+  margin-bottom: 23px;
 }
 
 .main-main__sort-form__inline-block:last-of-type {
-  margin-bottom: 31px;
+  margin-bottom: 32px;
 }
 
 .main-main__sort-form__sort-checkbox {
@@ -1027,13 +1028,13 @@ body {
 }
 
 .main-main__sort-form__sort-column_right .main-main__sort-form__text_bold {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   margin-left: 3px;
 }
 
 .main-main__sort-form__sort-price {
   margin-bottom: 20px;
-  margin-left: 11px;
+  margin-left: 12px;
   padding-top: 5px;
   padding-bottom: 6px;
 
@@ -1068,6 +1069,7 @@ body {
   width: 50px;
   margin: 0;
 
+  font-size: 14px;
   color: #ffffff;
 
   background: none;
