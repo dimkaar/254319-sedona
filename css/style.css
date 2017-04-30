@@ -77,7 +77,7 @@ body {
   display: -ms-flexbox;
 
   display: flex;
-  -ms-flex-pack: justify;
+  -ms-flex-pack: space-between;
   justify-content: space-between;
 
   background-color: #ffffff;
@@ -507,7 +507,7 @@ body {
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
+  -ms-flex-pack: space-between;
   justify-content: space-between;
   -ms-flex-align: baseline;
   align-items: baseline;
@@ -519,10 +519,15 @@ body {
 }
 
 .search-block__form__label {
+  display: inline-block;
   font-weight: 700;
   color: #000000;
   text-align: left;
   line-height: 26px;
+}
+
+.search-block__form__content-block_width_full > .search-block__form__label {
+  width: 24.4%;
 }
 
 .search-block__form__btn_calendar {
@@ -612,9 +617,10 @@ body {
   position: relative;
 
   width: 32px;
-  padding-top: 12px;
-  padding-bottom: 13px;
+  padding-top: 18px;
+  padding-bottom: 19px;
 
+  line-height: 0;
   text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;
