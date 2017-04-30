@@ -13,11 +13,6 @@ body {
   100% { transform: translateY(0); }
 }
 
-@keyframes exit {
-  0%   { transform: rotate(0); }
-  100% { transform: rotate(360deg); }
-}
-
 .search-block__form__minus-button::before,
 .search-block__form__plus-button::before,
 .main-footer__right-column__link::before,
