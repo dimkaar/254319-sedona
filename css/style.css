@@ -572,9 +572,9 @@ body {
 }
 
 .search-block__input-date:focus {
-  padding-top: 4px;
+  padding-top: 9px;
   padding-right: 33px;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   padding-left: 11px;
 
   background-color: #ffffff;
@@ -702,8 +702,8 @@ body {
 }
 
 .search-block__input-number:focus {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 9px;
+  padding-bottom: 8px;
 
   background-color: #ffffff;
   border-top: 2px solid #f2f2f2;
