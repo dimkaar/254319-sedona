@@ -107,6 +107,10 @@ body {
   box-sizing: border-box;
 }
 
+.main-header__menu-item:nth-of-type(2) {
+  margin-right: 20%;
+}
+
 .main-header__menu-item_logo {
   position: relative;
 }
@@ -135,18 +139,16 @@ body {
 .main-header__menu__link_active:hover,
 .main-header__menu__link_active:active {
   color: #766357;
-}
 
-.main-header__menu__link_active:hover {
-  color: inherit;
+  cursor: default;
 }
 
 .main-header__logo-block {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40%;
 
-  width: 100%;
+  width: 20%;
   padding-bottom: 20px;
 
   background-color: transparent;
