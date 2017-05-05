@@ -1,9 +1,9 @@
-var btn = document.querySelector('.main-main__search-block__btn');
-var modal = document.querySelector('.main-main__search-block__modal-window');
+var btn = document.querySelector('.main-main__search-block__btn'),
+  modal = document.querySelector('.main-main__search-block__modal-window');
 
 btn.addEventListener('click', function(event) {
-    event.preventDefault();
-    modal.classList.toggle("main-main__search-block__modal-window_display_none");
+  event.preventDefault();
+  modal.classList.toggle("main-main__search-block__modal-window_display_none");
 });
 
 window.addEventListener('keydown', function(event) {
